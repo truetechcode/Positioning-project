@@ -63,6 +63,14 @@ h1, h2, h3, h4, h5, h6{
 h4{
 	font-weight: 700;
 }
+
+.right{
+	float: right;
+}
+
+.left{
+	float: left;
+}
 /*Navbar*/
 
 nav {
@@ -174,15 +182,40 @@ img.header-img{
 	font-weight: 600;
 	margin: 0 0 10px 0; 
 }
+.date-social{
+	margin-top: 5px;
+}
 .date-social p{
 	font-size: 0.8rem;
 }
+.social{
+	margin-left: 300px;
+    /* margin-top: 10px; */
+}
+
+.social i.fa{
+	margin: 0 0 0 5px;
+}
+
+.social a{
+    display: inline-block;
+    height: 15px;
+    vertical-align: middle;
+    width: 15px;
+    background-color: #eee;
+    border: 1px #eee solid;
+    border-radius: 100%;
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+}
+
 p.article-body{
 	margin-left: 0;
 margin-right: 0;
 width: 100%;
 max-width: 100%;
-font-family: nyt-imperial,georgia,'times new roman',times,serif;
+/* font-family: nyt-imperial,georgia,'times new roman',times,serif; */
 }
 
 /*footer*/
