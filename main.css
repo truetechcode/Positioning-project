@@ -144,9 +144,9 @@ h4.title{
 	margin-bottom: 1rem;
 }
 
-.caption{
+p.caption{
 	font-size: 0.9375rem;
-line-height: 1.rem;
+line-height: 1rem;
 margin-right: 7px;
 color: #666;
 }
@@ -159,10 +159,24 @@ img.header-img{
 	margin-left: 10%;
 }
 .content{
-	width: 50%;
+	width: 40%;
 	margin: 0 auto;
 }
 
+.article-head, .date-social p{
+	position: relative;
+	display: inline-block;
+	font-size: 0.9rem;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.article-head .author{
+	font-weight: 600;
+	margin: 0 0 10px 0; 
+}
+.date-social p{
+	font-size: 0.8rem;
+}
 p.article-body{
 	margin-left: 0;
 margin-right: 0;
