@@ -63,7 +63,7 @@ nav {
 }
 
 
-.navbar_item img{
+.navbar_item img, .footer-image img{
 	width: 195px;
 	height: 45px;
 }
@@ -110,3 +110,13 @@ nav {
 	box-sizing: border-box;
 }
 
+.footer {
+	width: 100%;
+	height:auto;
+}
+
+.footer-item {
+	float: left;
+	padding-top: 20px;
+	padding-left: 6%;
+}
