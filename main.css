@@ -122,7 +122,14 @@ ul,li,a {
 }
 
 .footer-link {
+	color: rgb(68, 116, 152);
 	float: right;
+	font-size: x-small;
+	padding-right: 15px;
+}
+
+.footer-link a {
+	color: rgb(68, 116, 152);
 }
 
 .footer-image {
@@ -130,7 +137,6 @@ ul,li,a {
 }
 .footer-item {
 	float: left;
-	
 	padding-left: 7%;
 }
 
@@ -166,8 +172,12 @@ ul,li,a {
 	padding-right: 8px;
 }
 
+.footer-item:nth-of-type(6) a{
+	font-size: smaller;
+}
+
 .footer-item li , a {
-	padding:3px 0px 3px 0px;
+	padding:4px 0px 4px 0px;
 	color: black;
 }
 
