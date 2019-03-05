@@ -263,3 +263,39 @@ ul,li,a {
 a:hover  {
 	text-decoration: underline !important;
 }
+
+.website-info {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	clear: left;
+	padding-top: 13px;
+
+}
+
+.website-info a{
+	padding-right:8px; 
+	font-size: small;
+}
+
+.website-info hr {
+	width: 90%;
+}
+
+/*Responsiveness*/
+@media only screen and (max-width: 1185px) {
+	.footer-item {
+		position: relative;
+		width: 100%;
+		float: none;
+		text-align: left;
+		padding-left: 3% !important;
+		border-bottom: 1px solid;
+	}
+
+	.dropdown-content {
+		position: absolute;
+		display: none;
+	}
+	
+}
