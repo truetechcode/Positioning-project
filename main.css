@@ -118,6 +118,10 @@ nav {
 	padding-right: 0px;
 }
 
+.navbar_item:nth-of-type(3) i {
+	display: none;
+}
+
 .navbar_item button {
 	width:95.72px; 
 	height:32px;
@@ -342,6 +346,33 @@ a:hover  {
 	
 }
 
-@media only screen and (max-width: 1200px) {
-	
+@media only screen and (max-width: 990px) {
+	.navbar_item:nth-of-type(1) i ,.navbar_item:nth-of-type(1) a{
+		display: none;
+	}
+
+	.navbar_item:nth-of-type(1) i:nth-of-type(1) {
+		display: initial;
+	} 
 }
+
+@media only screen and (max-width: 805px) {
+
+	.navbar_item:nth-of-type(3) button {
+		display: none;
+	}
+	.navbar_item:nth-of-type(3) i {
+		display: initial;
+		font-size: x-large;
+		float: right;
+	}
+	.navbar_item:nth-of-type(2) {  
+		padding-left: 23%;
+		padding-right: 14%;
+	}
+
+	nav {
+		position: initial;
+	}
+}
+
