@@ -90,7 +90,7 @@ nav {
 
 .navbar_item img, .footer-image img{
 	width: 195px;
-	height: 45px;
+	height: 43px;
 }
 
 .navbar_item:nth-of-type(1) {
@@ -109,13 +109,15 @@ nav {
 	text-decoration: none;
 }
 .navbar_item:nth-of-type(2) {
-	padding-right: 27%;
-    padding-left: 21%;   
+   float: left;
+    position: relative;
+    left: 25%;
 }
 
 .navbar_item:nth-of-type(3) {
 	padding-top: 5px;
-	padding-right: 0px;
+	padding-right: 20px;
+	float: right;
 }
 
 .navbar_item:nth-of-type(3) i {
@@ -309,6 +311,13 @@ font-size: 0.85rem;
 .footer-menu {
 	margin-top: 35px;
 	height: auto;
+	width: 100%;
+}
+
+.footer-menu::after {
+	content: "";
+	clear: both;
+	display: table;
 }
 
 .footer-item:nth-of-type(1) {
@@ -407,9 +416,7 @@ a:hover  {
 		z-index: 1;
 		height: auto;
 	}
-	.navbar_item:nth-of-type(2) {
-	padding-right: 16%;   
-	}
+	
 	
 }
 
@@ -432,10 +439,6 @@ a:hover  {
 		display: initial;
 		font-size: x-large;
 		float: right;
-	}
-	.navbar_item:nth-of-type(2) {  
-		padding-left: 23%;
-		padding-right: 14%;
 	}
 
 	nav {
